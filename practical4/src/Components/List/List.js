@@ -30,7 +30,7 @@ function List(props){
       ]
 
     return(
-        <>
+    <>
         <ListItem completed={true} listdetail={listItem[0].listdetail} icon={listItem[0].icon}/>
         <ListItem completed={true} listdetail={listItem[1].listdetail} icon={listItem[0].icon}/>
         <ListItem listdetail={listItem[2].listdetail}/>
@@ -38,10 +38,7 @@ function List(props){
         <ListItem listdetail={listItem[4].listdetail}/>
         <ListItem listdetail={listItem[5].listdetail}/>
         <ListItem listdetail={listItem[6].listdetail}/>
-       
-        
-
-        </>
+    </>
     );
 }
 
