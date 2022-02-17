@@ -1,0 +1,21 @@
+.dateday {
+    /* height: 50px; */
+    font-weight: bolder;
+    padding: 10px;
+    position: relative;
+  }
+  .date {
+    font-size: 30px;
+  }
+  .monthyear {
+    font-size: 15px;
+    line-height: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+.day {
+    font-size: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+  }
