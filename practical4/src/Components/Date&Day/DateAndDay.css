@@ -1,28 +1,22 @@
 .dateday {
-    /* height: 50px; */
-    font-weight: bolder;
     padding: 40px;
     padding-bottom: 15px;
-    /* position: relative; */
   }
   .date {
     font-size: 30px;
     padding-right: 2px;
     padding-left: 0px;
+    font-weight: bold;
   }
   .monthyear {
     font-size: 15px;
-    line-height: 12px;
+    line-height: 13px;
     margin-top: 10px;
-    padding-left: 0px;
+    padding-left: 2px;
   }
 .day {
     font-size: 15px;
     margin-top: 10px;
-    /* margin-left: 40px; */
-    /* float: right; */
+    font-weight: bold;
     direction: rtl;
-  /* position: absolute; */
-  /* top: 50%; */
-  /* transform: translateY(20%) */
   }
