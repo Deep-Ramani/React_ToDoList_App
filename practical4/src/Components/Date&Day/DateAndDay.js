@@ -4,11 +4,16 @@ function DateAndDay(){
     return(
         <>
         <div className="row dateday mt-5">
-            {/* <div className="col"></div> */}
-            <div className="col-1 date">12</div>
-            <div className="col-1 monthyear">Jan <br/> 2019</div>
-            <div className="col-1 offset-9 day">Tuesday</div>
+            <div className="col">
+                <div className="row">
+            <div className="col date">12</div>
+            <div className="col monthyear"><b>JAN</b> <br/> 2016</div>
             <div className="col"></div>
+            <div className="col"></div>
+            
+            </div>
+            </div>
+            <div className="col day">TUESDAY</div>
         </div>
         </>
     );

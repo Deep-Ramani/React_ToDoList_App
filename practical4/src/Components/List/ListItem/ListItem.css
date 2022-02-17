@@ -1,0 +1,20 @@
+.ListItem{
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display:flex;
+}
+.btncheck{
+    direction: rtl;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    color: rgba(78,228,167,255);
+}
+.list{
+    padding-left: 0px;
+}
+.icon{
+    color: rgba(78,228,167,255);
+    font-size: 20px;
+}
