@@ -1,18 +1,17 @@
-import './Button.css'
+import "./Button.css";
 
-function Button(props){
+function Button(props) {
+  if (props.hideButton) {
+    return null;
+  }
 
-    if(props.hideButton){
-        return null;
-    }
-
-
-    return(
-        
-        <div className='button'>
-            <button className='buttonplus' onClick={() => props.toggleHideButton()}>+</button>
-        </div>
-    );
+  return (
+    <div className="button">
+      <button className="buttonplus" onClick={() => props.toggleHideButton()}>
+        +
+      </button>
+    </div>
+  );
 }
 
 export default Button;
