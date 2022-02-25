@@ -10,13 +10,13 @@
     background-color: white;
     border: none;
     color: rgba(78,228,167,255);
-    font-size: 19px;
+    /* font-size: 19px; */
 }
 .list{
     padding-left: 0px;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 .icon{
     color: rgba(78,228,167,255);
-    font-size: 20px;
+    font-size: 15px;
 }
