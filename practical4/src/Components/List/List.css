@@ -1,0 +1,5 @@
+.List{
+    max-height: 400px;
+    overflow-x: clip;
+    overflow-y: auto;
+}
