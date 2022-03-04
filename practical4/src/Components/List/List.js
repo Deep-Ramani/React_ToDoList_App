@@ -9,12 +9,10 @@ import './List.css'
 const LocalItems = () => {
     let list = localStorage.getItem('ListData');
 
-    if (list) {
-        return JSON.parse(localStorage.getItem('ListData'));
-    } else {
-        return [];
-    }
+    return list ? JSON.parse(list) : [] ;
 }
+
+
 
 const dateCreated = () => {
 
@@ -31,10 +29,10 @@ const dateCreated = () => {
 function List(props){
 
     const today = new Date();
-    const date = today.getFullYear() + '-' + (today.getMonth()) + '-' + (today.getDate());
-    const expiry = today.getFullYear() + '-' + (today.getMonth()) + '-' + (today.getDate());
+    const date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + (today.getDate());
+    const expiry = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + (today.getDate());
     const expires = dateCreated();
-    const[ListData, setListData] =useState(LocalItems());
+    const[ListData, setListData] =useState(LocalItems);
     
     useEffect(() => {
         if (date > expires) {
